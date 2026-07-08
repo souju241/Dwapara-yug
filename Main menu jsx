@@ -1,0 +1,23 @@
+import React from "react";
+import "../styles/MainMenu.css";
+
+function MainMenu() {
+  return (
+    <div className="menu-container">
+      <div className="overlay">
+        <h1 className="game-title">DWAPARA YUG</h1>
+        <p className="subtitle">Rise of Dharma</p>
+
+        <div className="menu-buttons">
+          <button>▶ Start Journey</button>
+          <button>📖 Continue</button>
+          <button>🏆 Leaderboard</button>
+          <button>⚙ Settings</button>
+          <button>❌ Exit</button>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default MainMenu;
