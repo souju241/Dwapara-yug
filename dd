@@ -1,0 +1,7 @@
+Dwapara-yug/
+│
+├── client/        (React frontend)
+├── server/        (Node.js backend)
+├── README.md
+├── LICENSE
+└── .gitignore
